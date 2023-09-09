@@ -38,6 +38,7 @@ We plan to implement these key functionalities in our project:
 4. **Enhance User Experience with Music:** Enhance user engagement and enjoyment on our website by incorporating music.
 5. **Copyrights and Acknowledgements:** Provide appropriate copyright information and acknowledgments for any content used on our website.
 6. **Offer Additional Safety Tips for Los Angeles:** Include contact information for local police departments and offer other safety recommendations for visitors to Los Angeles.
+
 Moreover, we try to develop these interesting functions on our website:
 1. Using geometrical crime data mentioned above, we try to develop a safe-walk system that output a automatically generated shortest path between the user-input source and destination, avoiding dangerous neighborhood in LA. 
 2. Using location data of where criminal activities happened, we try to draw a map of LA with red dots on it indicating where crimes has been commited. The denser the dots are, the more dangerous the neighborhood is. 
