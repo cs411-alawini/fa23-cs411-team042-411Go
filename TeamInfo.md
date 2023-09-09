@@ -19,7 +19,7 @@
 
 |   Info      |        Description     |
 | ----------- | ---------------------- |
-|  Title      |       SavetyWaveLA     |
+|  Title      |       SaveTravelLA     |
 | System URL  |            TBD         |
 | Video Link  |            TBD         |
 
@@ -39,9 +39,9 @@ We plan to implement these key functionalities in our project:
 4. **Enhance User Experience with Music:** Enhance user engagement and enjoyment on our website by incorporating music.
 5. **Copyrights and Acknowledgements:** Provide appropriate copyright information and acknowledgments for any content used on our website.
 6. **Offer Additional Safety Tips for Los Angeles:** Include contact information for local police departments and offer other safety recommendations for visitors to Los Angeles.
-### Functional Extensions
+### Extend Functionalities
 Additionally, we endeavor to create the following valuable features on our website:
-1. Utilizing the geometric crime data referenced earlier, we are working towards the development of a secure walking system. This system will automatically generate the shortest path between a user-input source and destination while avoiding high-risk neighborhoods in Los Angeles.
-2. Leveraging location data related to criminal incidents, we aim to construct a map of Los Angeles that visually highlights areas with red dots denoting crime occurrences. The density of these dots will serve as an indicator of neighborhood danger levels.
+1. **Reassuring Navigation:** Utilizing the geometric crime data referenced earlier, we are working towards the development of a secure walking system. This system will automatically generate the shortest path between a user-input source and destination while avoiding high-risk neighborhoods in Los Angeles.
+2. **Danger Level Visualization:** Leveraging location data related to criminal incidents, we aim to construct a map of Los Angeles that visually highlights areas with red dots denoting crime occurrences. The density of these dots will serve as an indicator of neighborhood danger levels.
 
-"SafetyWaveLA" is a comprehensive platform designed to proactively address the safety concerns of Los Angeles residents and travellesrs. By providing secure route planning, safety zone and road delineation, and Crime Peak Analysis, our project contributes to the creation of a safer, more informed, and resilient city. 
+"SafeTravelLA" is a comprehensive platform designed to proactively address the safety concerns of Los Angeles residents and travelers. By providing secure route planning, safety zone and road delineation, and Crime Peak Analysis, our project contributes to the creation of a safer, more informed, and more resilient travelling service platform. 
