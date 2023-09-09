@@ -23,15 +23,15 @@
 | System URL  |            TBD         |
 | Video Link  |            TBD         |
 
+## Project Title
+SafeTravelLA
+
 ## Project Summary
 
 Our project aims to bring safer and more confortable experience for our user to travel in Los Angeles. We utilize the "Crime in Los Angeles Data from 2020 to Present" database (Provided by: Los Angeles Police Department) to create some practical tools that anyone can use. We place most emphasis on the visualization on the crime occurrence and safe travelling path both in time-scale and space-scale.
 
-There are three key functionalities: 
-##### Secure Route Planning
-##### Safety Zone and Road Delineation
-##### Crime Peak Analysis
-
+## Functionalities
+We plan to implement these key functionalities in our project: 
 1. **Rank and Present Los Angeles' High-Risk Neighborhoods:** Create a chart that ranks neighborhoods in Los Angeles based on the frequency of criminal activities. This will help our website users make informed decisions about which areas to avoid.
 2. **Identify and Present Peak Crime Periods in Los Angeles:** Analyze crime data to pinpoint the times when crime rates in Los Angeles are unusually high. This analysis aims to uncover potential correlations between public safety and social events or public festivals, enabling our users to plan their visits accordingly.
 3. **Highlight the Most Common Types of Crimes in Los Angeles:** Display a list of the most prevalent crimes committed in Los Angeles. This information will assist users in understanding what to be vigilant about when visiting the city.
