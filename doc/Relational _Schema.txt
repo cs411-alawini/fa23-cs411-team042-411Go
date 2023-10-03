@@ -1,0 +1,50 @@
+User (
+	UserId: CHAR(15) [PK]
+	, UserName: VARCHAR(25),
+	, Email: VARCHAR(50),
+	, PhoneNumber: VARCHAR(20)
+	, Password: VARCHAR(50)
+), Case (
+	DR_NO: INT [PK]
+	, DateReported: VARCHAR(22)
+	, DateOccurred: VARCHAR(22)
+	, TimeOccurred: INT
+	, RptDistNo: INT
+	, CrimeCode: INT [FK to Crime.CrimeCode]
+	, CrimeCodeDesc: VARCHAR(255)
+	, MOCode: VARCHAR(20)
+	, VictimSex: CHAR
+	, VictimAge: INT
+	, VictimDescent: VARCHAR(2) 
+	, Status: VARCHAR(2) [FK to Status.StatusCode]
+	, WeaponUsed: INT [FK to Weapon.WeaponUsedCode]
+	, Location: VARCHAR(255)
+	, LAT: DOUBLE
+	, LON: DOUBLE
+), Crime (
+	CrimeCode: INT [PK]
+	, CrimeCodeDesc: VARCHAR(255)
+	, CrimeCode1: INT
+	, CrimeCode2: INT
+	, CrimeCode3: INT
+), Area (
+	AreaCode: INT [PK]
+	, AreaName: VARCHAR(50)
+), Premis (
+	PremisCode: INT [PK]
+	, PremisDesc: VARCHAR(255)
+), Weapon (
+	WeaponUsedCode: INT [PK]
+	, WeaponDesc: VARCHAR(255)
+), Status (
+	StatusCode: VARCHAR(2) [PK]
+	, StatusDesc: VARCHAR(10)
+)
+
+
+relation: 1. User->case: lookup & search
+2. case->crime: belongs to
+3. case->area: happend in
+4. case->Premis: take place
+5.case->Weapon: use
+6.case->Status: current in
