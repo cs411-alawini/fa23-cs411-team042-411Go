@@ -9,3 +9,5 @@ Eash submission should be in it's own [release](https://docs.github.com/en/repos
 ## Detailed Project Description - Stage.1 released
 
 ## Database Design - Stage.2 released
+
+## Database Implementation and Indexing - Stage.3 released
