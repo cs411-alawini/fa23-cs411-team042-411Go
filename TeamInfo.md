@@ -20,11 +20,11 @@
 |   Info      |        Description     |
 | ----------- | ---------------------- |
 |  Title      |       SaveTravelLA     |
-| System URL  |            TBD         |
+| System URL  |https://github.com/cs411-alawini/fa23-cs411-team042-411Go/releases/tag/Stage.4|
 | Video Link  |            TBD         |
 
 ## Project Title
-SafeTravelLA
+SafewalkLA
 
 ## Project Summary
 
