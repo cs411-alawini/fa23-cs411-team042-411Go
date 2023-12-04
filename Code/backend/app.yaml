@@ -1,0 +1,19 @@
+runtime: python38 # or another supported version
+
+instance_class: F1 # this is the cheapest option
+
+env_variables:
+  MYSQL_USER: "root"
+  MYSQL_PASSWORD: "safewalk"
+  MYSQL_DB: "safewalk_la"
+  MYSQL_HOST: "34.28.174.109"
+  MYSQL_PORT: "3306"
+  MYSQL_UNIX_SOCKET: "/mysql/mysql.sock"
+
+handlers:
+
+- url: app/scripts
+  static_dir: static/app/scripts
+
+- url: app/styles
+  static_dir: static/app/styles
