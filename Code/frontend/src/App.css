@@ -1,0 +1,161 @@
+body {
+  font-family: "Arial", sans-serif;
+  width: 80vw;
+  margin: auto;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: left;
+  color: #333;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.areablock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.newcasebutton {
+  width: 300px;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 35%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.searchbar {
+  padding: 8px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.update {
+  float: right;
+  padding: 4px;
+  border-radius: 4px;
+  margin-right: 8px;
+  background-color: green;
+}
+
+.delete {
+  float: right;
+  padding: 4px;
+  border-radius: 4px;
+  margin-right: 8px;
+  background-color: red;
+}
+
+.togglebutton {
+  padding: 4px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.dropdowncontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.crimeNum {
+  text-align: left;
+}
+
+/* styles.css */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal-content p {
+  margin: 0px;
+}
+
+.show{
+  width: 300px;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 35%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
