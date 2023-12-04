@@ -11,3 +11,5 @@ Eash submission should be in it's own [release](https://docs.github.com/en/repos
 ## Database Design - Stage.2 released
 
 ## Database Implementation and Indexing - Stage.3 released
+
+## SafewalkLA - Stage.4 && Final Project released
