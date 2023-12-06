@@ -25,7 +25,7 @@ def high_risk_area() -> dict:
 
 def get_cases(AreaCode:int) -> dict:
     conn = db.connect()
-    query_result = conn.execute("SELECT ca.DR_NO, ca.DateReported, ca.Location, cr.CrimeCodeDesc FROM Cases ca join Crime cr on ca.CrimeCode = cr.CrimeCode WHERE ca.AreaCode=12 ORDER BY DR_NO DESC LIMIT 5;".format(AreaCode))
+    query_result = conn.execute("SELECT ca.DR_NO, ca.DateReported, ca.Location, cr.CrimeCodeDesc FROM Cases ca join Crime cr on ca.CrimeCode = cr.CrimeCode WHERE ca.AreaCode={} ORDER BY DR_NO DESC LIMIT 5;".format(AreaCode))
     conn.close()
     case_list = []
     for result in query_result:
