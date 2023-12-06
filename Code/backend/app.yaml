@@ -3,11 +3,11 @@ runtime: python38 # or another supported version
 instance_class: F1 # this is the cheapest option
 
 env_variables:
-  MYSQL_USER: "fill_the_username_of_database"
-  MYSQL_PASSWORD: "fill_the_password_of_database"
+  MYSQL_USER: "root"
+  MYSQL_PASSWORD: "safewalk"
   MYSQL_DB: "safewalk_la"
-  MYSQL_HOST: "fill_the_ip_of_database"
-  MYSQL_PORT: "fill_the_port_of_database"
+  MYSQL_HOST: "34.28.174.109"
+  MYSQL_PORT: "3306"
   MYSQL_UNIX_SOCKET: "/mysql/mysql.sock"
 
 handlers:
